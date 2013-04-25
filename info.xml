@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <extension key="nz.co.fuzion.discountvoucherpurchase" type="module">
   <file>discountvoucherpurchase</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
-  <license>FIXME</license>
+  <name>Discount Voucher Purchasing</name>
+  <description>Simple hard-coded implementation of creating discount voucher via a contribution form (24)</description>
+  <license>AGPL</license>
   <maintainer>
-    <author>FIXME</author>
-    <email>FIXME@example.com</email>
+    <author>Eileen</author>
+    <email>eileen@fuzion.co.nz</email>
   </maintainer>
   <releaseDate>2013-04-24</releaseDate>
   <version>1.0</version>
@@ -14,7 +14,7 @@
   <compatibility>
     <ver>4.2</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>This module is not generic enough for general use</comments>
   <civix>
     <namespace>CRM/Discountvoucherpurchase</namespace>
   </civix>

@@ -8,7 +8,7 @@ require_once 'discountvoucherpurchase.civix.php';
  * @param object $form
  */
 function discountvoucherpurchase_civicrm_postProcess($formName, &$form ) {
-  if($form->_id == 24){
+  if($formName == 'CRM_Contribute_Form_Contribution_Confirm' && isset($form->_id) && $form->_id == 24){
     $params = array(
       'code' => $form->_params['contactID'] . '-' . $form->_params['contributionID'],
       'description' => 'gift from ' . $form->_params['email-5'],
