@@ -19,7 +19,7 @@ function discountvoucherpurchase_civicrm_postProcess($formName, &$form ) {
       'version' => 3,
       'multi_valued' => array('memberships' => 1),
       );
-    $code = civicrm_api('Item', 'create', $params);
+    $code = civicrm_api('DiscountCode', 'create', $params);
   }
 }
 
